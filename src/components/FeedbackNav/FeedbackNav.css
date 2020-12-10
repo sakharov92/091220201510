@@ -1,0 +1,42 @@
+.feedbackNav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 11px;
+}
+.filter{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    color: #333333;
+    width: fit-content;
+}
+.filter a{
+    font-size: 14px;
+    line-height: 16px;
+    color: #005DA1;
+    margin-left: 10px;
+}
+.socilaBtns{
+    display: flex;
+    align-items: center;
+}
+.socilaBtns span{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+}
+.socilaBtns img{
+    margin-left: 16px;
+    margin-right: 3px;
+    align-self: flex-end;
+}
+.comment{
+    transform: translateY(2px);
+}
+@media (max-width: 410px) {
+    .filter, .filter a{
+        font-size: 12px;
+}
+}

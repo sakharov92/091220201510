@@ -1,0 +1,49 @@
+.feedback{
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 19px;
+	color: #333333;
+	margin-top: 16px;
+}
+.feedbackMessage{
+	padding: 24px 15px 15px 20px;
+	background: #F2FBFF;
+	border: 1px solid #C4CBCF;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 10px rgba(128, 128, 128, 0.1);
+	margin-top: 15px;
+	position: relative;
+	
+}
+.feedbackMessage p{
+	overflow: hidden;
+}
+.feedbackMessage:before {
+	border: 10px solid transparent;
+	border-bottom: 10px solid #C4CBCF;
+	border-left: 10px solid #C4CBCF;
+	position:absolute;
+	left:40px;
+	top: -18px;
+	content:'';
+	z-index: -1;
+}
+.feedbackMessage:after {
+	border: 10px solid transparent;
+	border-bottom: 10px solid #F2FBFF;
+	border-left: 10px solid #F2FBFF;
+	position:absolute;
+	left:41px;
+	top: -16px;
+	content:'';
+	
+}
+.info{
+	line-height: 19px;
+	font-weight: bold;
+}
+.feedback span{
+	font-size: 12px;
+	opacity: 0.5;
+	margin-left: 15px;
+}

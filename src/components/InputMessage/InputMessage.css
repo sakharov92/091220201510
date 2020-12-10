@@ -1,0 +1,31 @@
+.inputBlock{
+margin: 0 -20px;
+	background: #F2F2F2;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 28px;
+}
+.sendBtn{
+	outline: none;
+	background: #FDD639;
+	border-radius: 23px;
+	font-family: PT Sans;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 21px;
+	color: #333333;
+	padding: 13px 45px;
+	margin: 23px auto 34px;
+	border: none;
+}
+.sendBtn:hover{
+	cursor: pointer;
+}
+.inputBlock .textarea{
+	outline: none;
+	resize: none;
+	width: calc(100% - 40px);
+	min-height: 63px;
+	padding: 5px;
+}

@@ -1,0 +1,57 @@
+header{
+    min-height: 124px;
+}
+.name{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    .color:#333333;
+    margin-left: 140px;
+    margin-top: 21px;
+    margin-bottom: 2px;
+}
+.jobPosition{
+    margin-left: 140px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color:  #808080;
+    margin-bottom: 5px;
+}
+.headerStatus{
+    padding: 10px 14px 11px 75px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+    background: #FFFBC8;
+    border: 1px solid #DADADA;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-left: 65px;
+    max-width: 620px;
+}
+.imgWrapper{
+    width: 124px;
+    height: 124px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    left: 20px;
+    top: 0px;
+}
+.girlPhoto{
+    width: 100%;
+    height: 100% ;
+}
+
+@media (max-width: 502px) {
+    .headerStatus{
+        font-size: 12px;
+        line-height: 17px;
+    }
+}

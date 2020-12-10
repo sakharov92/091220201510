@@ -1,0 +1,97 @@
+.statistic{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+table{
+    border-collapse: collapse;
+    width: 60%;
+    color: #333333;
+}
+
+tbody{
+    border-bottom: 1px solid #DADADA;
+    border-top: 1px solid #DADADA;
+    padding: 16px 0px 15px 0px;
+    height: fit-content;
+    font-family: Arial;
+    color: #333333;
+    font-size: 16px;
+}
+tbody::before {
+    height: 16px;
+    display: table-row;
+    content: '';
+}
+tbody::after {
+    height: 16px;
+    display: table-row;
+    content: '';
+}
+.offers{
+    font-size: 13px;
+    line-height: 15px;
+    padding-bottom: 7px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.offersAmount{
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+
+    text-align: center;
+}
+tfoot{
+    font-weight: bold;
+    font-size: 16px;
+}
+.total{
+    padding-top: 9px;
+    line-height: 26px;
+    padding-left: 6px;
+}
+.totalAmount{
+    text-align: center;
+    line-height: 15px;
+}
+.tableItem{
+    font-size: 13px;
+    line-height: 26px;
+    border-left: 1px solid rgba(51, 51, 51, 0.2);
+}
+.backgroundBLock{
+    border-radius: 0px 3px 3px 0px;
+    white-space: nowrap;
+    padding-left: 6px;
+}
+tbody:nth-child(even) tr:nth-child(1) div{
+    background: #B1E19B;
+    width: 219px;
+}
+
+tbody:nth-child(even) tr:nth-child(2) div{
+    background: #ACE2F8;
+    width: 64px;
+}
+tbody:nth-child(even) tr:nth-child(2){
+    border-bottom: 2px solid transparent;
+    border-top: 2px solid transparent;
+}
+tbody:nth-child(even) tr:nth-child(3) div {
+    background: #ACE2F8;
+    width: 36px;
+}
+
+@media (max-width: 550px) {
+    table{
+        width: 80%;
+    }
+}
+@media (max-width: 400px) {
+    table{
+        width: 90%;
+    }
+}
